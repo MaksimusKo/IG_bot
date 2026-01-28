@@ -26,11 +26,11 @@ import json
 #    pip install faiss-cpu sentence-transformers pypdf2 openai fastapi uvicorn pyngrok requests
 #
 # 2) Задайте свой ключ OpenAI и другие необходимые токены:
-OPENAI_API_KEY = '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'
-VERIFY_TOKEN = "TEST"
-APP_USER_IG_ID = "17841471777593463"
-NGROK_AUTH_TOKEN = "2opYmVsYvXrxWsVKdNyEHalT4Gx_6ZLkes2HYNQWMdcJfbG2m"
-ACCESS_TOKEN = "IGAANYNqEepndBZAE5BTV91aERNNXRTQnZATRW9sX3ZAFOE83RzZAWZAllIWEE3UkRZAdmhZAcE9qT2UybFRtbl80cWVjWENJbGpqSF96OWFNbkl5UHN2dFFKN3ZA1M29lVG9QY2JqWDE3UUVpUHhaa0FSTGFxOGtxNUVyNXhKT3NFaDVsOAZDZD"
+OPENAI_API_KEY = ''
+VERIFY_TOKEN = ""
+APP_USER_IG_ID = ""
+NGROK_AUTH_TOKEN = ""
+ACCESS_TOKEN = ""
 GRAPH_API_URL = "https://graph.instagram.com/v21.0"
 PDF_FOLDER_PATH = r"D:\projects\work1\pdfs"  # Укажите путь к вашим PDF-файлам
 # ======================================================================
@@ -258,3 +258,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
